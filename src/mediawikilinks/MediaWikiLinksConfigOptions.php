@@ -26,7 +26,7 @@ final class MediaWikiLinksConfigOptions
 		return [
 			$this->newOption( 'mediawikilinks.base', 'string', null )
 				->addExample( 'https://www.mediawiki.org/wiki/', pht( 'MediaWiki wiki' ) )
-				->addExample( 'https://meta.miraheze.org/wiki/', pht( 'Miraheze Meta' ) )
+				->addExample( 'https://meta.skywiki.org/wiki/', pht( 'Skywiki Meta' ) )
 				->setDescription(
 					pht(
 						'URL prefix of where Wikitext-style links go to. The page will ' .
